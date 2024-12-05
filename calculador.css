@@ -1,0 +1,62 @@
+
+/*Formatação Base*/
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/*Formatações Gerais*/
+
+body{
+    background-color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
+}
+
+/*formatação do container*/
+
+.container{
+    width: 400px;
+    height: auto;
+    border: 5px solid black;
+    border-radius: 5%;
+    background-color: orange;
+    padding: 15px;
+    margin: auto;
+    top: 0;
+    text-align: center;
+}
+
+.title{
+    font-size: 40px;
+    text-align: center;
+    border-bottom: 10px solid black;
+    padding: 15px;
+}
+
+.input{
+    padding: 5px;
+    margin: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+button{
+    width: auto;
+    height: auto;
+    font-size: 28px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 10%;
+}
+
+.result{
+    border: 2px solid black;
+    height: auto;
+    padding: 20px;
+    margin: 15px;
+    text-align: center;
+    font-size: 28px;
+}
